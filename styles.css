@@ -92,11 +92,13 @@ u {
   color: white;
   font-family: "Courgette", cursive;
   border-radius: 50px;
-  display: inline-block;
+  display: table;
   font-size: 30px;
   padding: 0.3em 0.25em;
 }
-
+#our-cake-button p{
+    display: table;
+}
 #form-container {
   width: 60%;
   margin: 0 0.5em;
@@ -171,7 +173,7 @@ u {
 .grid-item {
   margin: 30px 20px;
   background-color: #ffdbf3;
-  width: fit-content;
+  display: table;
   display: inline-block;
   border-radius: 20px;
 }
@@ -180,7 +182,7 @@ u {
   font-size: 2em;
   font-family: "Indie Flower", cursive;
   text-align: center;
-    
+  display: table;  
 }
 #cake0 {
   background-image: url(images/cake\ 1.png);
