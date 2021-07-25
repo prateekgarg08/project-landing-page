@@ -92,7 +92,7 @@ u {
   color: white;
   font-family: "Courgette", cursive;
   border-radius: 50px;
-  width: fit-content;
+  display: table;
   font-size: 30px;
   padding: 0.3em 0.25em;
 }
@@ -125,7 +125,7 @@ u {
   margin: 0.5em 0em;
 }
 #submit {
-  width: fit-content;
+  display: table;
   font-family: "Righteous", cursive;
   color: #fff;
   background-color: #d34949;
@@ -158,7 +158,7 @@ u {
 #grid {
   display: grid;
   width: 100%;
-  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 50% 50%;
 }
 
@@ -171,7 +171,8 @@ u {
 .grid-item {
   margin: 30px 20px;
   background-color: #ffdbf3;
-  width: fit-content;
+  display: table;
+  width: 50px;
   border-radius: 20px;
 }
 
@@ -179,6 +180,8 @@ u {
   font-size: 2em;
   font-family: "Indie Flower", cursive;
   text-align: center;
+  /* display: table;
+ */
 }
 #cake0 {
   background-image: url(images/cake\ 1.png);
