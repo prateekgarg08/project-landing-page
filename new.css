@@ -27,7 +27,9 @@
   padding: 0.5em 0;
   align-items: center;
 }
-
+.icon {
+  display: none;
+}
 #nav-bar {
   display: flex;
 }
@@ -261,9 +263,10 @@ u {
   #header-container {
     flex-direction: column;
   }
-  #header {
-    position: static;
+  #header-img {
+    justify-self: center;
   }
+
   #nav-bar {
     width: 100%;
     flex-direction: column;
@@ -274,6 +277,43 @@ u {
     display: flex;
     justify-content: center;
   }
+
+  /*
+  
+  */
+
+  #header {
+    overflow: hidden;
+    /* background-color: #333; */
+    /* position: sticky; */
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  #header #nav-bar {
+    display: none;
+  }
+
+  /* Style navigation menu links */
+  #header a {
+    /* color: white; */
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  /* Style the hamburger menu */
+  #header a.icon {
+    /* background: black; */
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  /* Add a grey background color on mouse-over */
+
+  /***/
   #hero-container {
     grid-template-columns: 100%;
   }
